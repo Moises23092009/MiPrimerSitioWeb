@@ -1,0 +1,84 @@
+/*Selector universal*/
+
+*{
+    /*color del fondo*/
+    background-color: #282a36;
+
+    /*Color del texto*/
+   /*color: brown;*/
+}
+
+/*De etiqueta*/
+h1{
+    color:#ABA9BF;
+    border: solid red;
+}
+
+h2{
+    color:#bb8240;
+}
+
+h3{
+    color:#4062BB;
+}
+
+h4{
+    color:#ABA9BF;
+}
+
+h5{
+    color:#984447;
+}
+
+h6{
+    color:#bb407d;
+}
+
+/*De clase*/
+.serif{
+    /*tipografia*/
+    font-family: sans-serif;
+
+    /*Tamaño*/
+    font-size: x-large;
+
+    /*Peso*/
+    font-weight: 500;
+
+    /*Alineacion*/
+    text-align: center;
+}
+
+/*De id*/
+#rosa{
+    /*color*/
+    color: pink;
+    }
+
+#link{
+   text-align: center; 
+   font-style: oblique;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 600px){
+    
+    body{
+        background-color: red;
+    }
+
+    p{
+        color: yellow;
+    }
+}
+
+
+img, video{
+    /*ancho*/
+    width: 200px;
+
+    /*altura*/
+    /*height: 400px;*/
+    border: ridge red;
+}
